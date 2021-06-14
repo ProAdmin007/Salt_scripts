@@ -14,3 +14,5 @@ systemctl restart zabbix-agent
 systemctl status zabbix-agent
  
 ufw allow 10050/tcp
+ufw reload
+ufw status

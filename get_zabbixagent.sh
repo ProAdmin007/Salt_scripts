@@ -4,4 +4,6 @@ dpkg -i zabbix-release_4.2-1%2Bbionic_all.deb
 
 apt-get install zabbix-agent
 
-nano /etc/zabbix/zabbix_agentd.conf
+cd /etc/zabbix/
+rm auditbeat.yml
+git pull https://github.com/ProAdmin007/Salt_scripts/blob/main/auditbeat.yml

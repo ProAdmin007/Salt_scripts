@@ -7,4 +7,5 @@ wget https://raw.githubusercontent.com/ProAdmin007/Salt_scripts/main/auditbeat.y
 
 auditbeat setup
 service auditbeat start
+service auditbeat status
 service auditbeat enable

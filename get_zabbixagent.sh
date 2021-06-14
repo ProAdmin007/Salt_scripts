@@ -1,6 +1,6 @@
-wget http://repo.zabbix.com/zabbix/4.2/ubuntu/pool/main/z/zabbix-release/zabbix-release_4.2-1%2Bbionic_all.deb
+wget https://repo.zabbix.com/zabbix/5.0/ubuntu/pool/main/z/zabbix-release/zabbix-release_5.0-1+focal_all.deb
 
-dpkg -i zabbix-release_4.2-1+bionic_all.deb
+dpkg -i zabbix-release_5.0-1+focal_all.deb
 
 apt-get install zabbix-agent
 

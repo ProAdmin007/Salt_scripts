@@ -2,6 +2,8 @@ wget https://repo.zabbix.com/zabbix/5.0/ubuntu/pool/main/z/zabbix-release/zabbix
 
 dpkg -i zabbix-release_5*
 
+apt update
+
 apt-get install zabbix-agent
 
 cd /etc/zabbix/

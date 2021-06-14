@@ -6,7 +6,7 @@ apt-get install zabbix-agent
 
 cd /etc/zabbix/
 zabbix_agentd.conf
-git pull https://github.com/ProAdmin007/Salt_scripts/blob/main/zabbix_agentd.conf
+git clone https://github.com/ProAdmin007/Salt_scripts/blob/main/zabbix_agentd.conf
 
 systemctl restart zabbix-agent
 systemctl status zabbix-agent
